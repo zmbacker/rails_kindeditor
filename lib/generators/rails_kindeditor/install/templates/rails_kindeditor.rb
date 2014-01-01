@@ -16,4 +16,6 @@ RailsKindeditor.setup do |config|
   #     400x400   => 400x400  # No Change
   # config.image_resize_to_limit = [800, 800]
 
+  # config.file_manager_json_path = "/mycontroller/action"
+
 end

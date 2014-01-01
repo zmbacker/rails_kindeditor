@@ -23,7 +23,7 @@ module RailsKindeditor
     end
     
     def kindeditor_file_manager_json_path
-      "#{root_url}kindeditor/filemanager"
+      RailsKindeditor.file_manager_json_path || "#{root_url}kindeditor/filemanager"
     end
     
     private
