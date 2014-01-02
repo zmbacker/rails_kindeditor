@@ -25,6 +25,9 @@ module RailsKindeditor
 
   mattr_accessor :file_manager_json_path
 
+  mattr_accessor :asset_host
+  @@asset_host = ''
+
   def self.root_path
     @root_path ||= Pathname.new(File.dirname(File.expand_path('../', __FILE__)))
   end
